@@ -7,7 +7,6 @@
 a {
     text-decoration: none !important;
 }
-#body,
 body,
 html {
     font-family: $font-family;
@@ -25,14 +24,6 @@ body {
 .btn {
     &:active,
     &:focus {
-        box-shadow: none !important;
-    }
-}
-
-input {
-    &:active,
-    &:focus {
-        outline: none !important;
         box-shadow: none !important;
     }
 }
@@ -56,30 +47,6 @@ input {
 .img-30 {
     height: 30px;
     width: 30px;
-}
-.bg-lg-transparent {
-    @include media-breakpoint-down(lg) {
-        background: $body-background !important;
-    }
-    @include media-breakpoint-up(lg) {
-        background: transparent !important;
-    }
-}
-.login-card {
-    @extend .shadow;
-    border-radius: $spacer;
-    label {
-        color: $white;
-    }
-    textarea,
-    input:not([type="checkbox"]) {
-        background-color: transparent;
-        color: $white;
-        &:focus {
-            background-color: transparent;
-            color: $white;
-        }
-    }
 }
 
 .text-sm{

@@ -1,7 +1,6 @@
 /* Gallery Section */
 .share {
-    width: 40px;
-    height: 40px;
+    @extend .img-40;
     cursor: pointer;
 }
 #gallery-section {

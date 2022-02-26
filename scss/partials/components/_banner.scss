@@ -22,9 +22,7 @@
     .icon{
         height: 45px;
         width: 45px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include center;
         img{
             height: 20px;
         }
