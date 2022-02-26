@@ -1,8 +1,7 @@
 # Pitches Frontend
-Pitches website frontend 
+Gallery website frontend 
 
 ## Designs
-Here are the Design
+Here is the Design
 ![Design](./images/design.png)
-![Design](./images/login.png)
-![Design](./images/signup.png)
+![Modal](./images/design2.png)
