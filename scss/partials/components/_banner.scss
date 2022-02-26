@@ -1,0 +1,33 @@
+/* Banner Section */
+.banner {
+    h1 {
+        font-size: $spacer * 4;
+        font-weight: 900;
+        @include media-breakpoint-down(sm) {
+            font-size: $spacer * 2.5;
+        }
+    }
+
+    .banner-image-section{
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        display: flex;
+        justify-content: center;
+        img{
+            height: 80%;
+            bottom: 30px;
+        }
+    }
+
+    .icon{
+        height: 45px;
+        width: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            height: 20px;
+        }
+    }
+    
+}
